@@ -1,6 +1,9 @@
 import os
 from pytube import YouTube
 
+os.chdir("C:/Users/przem")
+
+
 while True:
     try:
         user_link = input("Wklej link z Youtuba:")
@@ -15,6 +18,5 @@ while True:
     except:
         print("Podałeś nieprawidłowy link")
 
-        
 
 
